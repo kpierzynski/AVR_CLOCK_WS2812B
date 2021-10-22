@@ -6,4 +6,6 @@ AVR uC is handling both leds with overclocked internal oscilator and RTC (only t
 
 Time can be set using UART by sending string in format: ssmmhh\n
 
+Note: WSL - Windows Subsystem for Linux can run windows app, so in Makefile I'm using avrdude.exe to upload code to uC, but compile on linux. 
+
 ![example_img](./img/clock.JPG)
